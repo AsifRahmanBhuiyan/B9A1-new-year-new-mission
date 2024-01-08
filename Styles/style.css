@@ -237,13 +237,11 @@
 .discount-image{
     display: flex;
     align-items: start;
-    justify-content: space-between, start;
 }
-
 
 /* Awesome Portfolio */
 #awesome-portfolio{
-    margin-bottom: 99px;
+    margin-bottom: 145px;
 }
 
 .awesome-portfolio-row{
@@ -259,7 +257,7 @@
 
 /* Subscribe */
 #subscribe{
-    margin-bottom: 99px;
+    margin-bottom: 145px;
 }
 
 .subscribe-container{
@@ -270,10 +268,6 @@
     display: block;
     margin: 0 auto;
 }
-
-/* .subscribe-container input{
-    border-radius: 0px 0px 50px 50px;
-} */
 
 
 /* Unsubscribe */
