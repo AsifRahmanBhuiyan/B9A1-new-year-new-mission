@@ -134,7 +134,7 @@
     background-image: url('../resources/grad.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 482px;
+    height: 450px;
     margin-bottom: 99px;
 }
 
@@ -185,13 +185,12 @@
     font-size: 16.5px;
     font-weight: 400;
     line-height: 32px;
-    width: 324.23px;
 }
 
 .coming-soon-mid img {
     border-radius: 463px;
     border: 15px solid #F00;
-    padding: 40.49px;
+    padding: 40px;
     height: 301px;
     width: 301px;
 }
