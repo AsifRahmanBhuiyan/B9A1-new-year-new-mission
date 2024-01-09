@@ -1,7 +1,7 @@
-/* Fonts Import Merriweather and  */
+/* Import Merriweather and Inter */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /* Common Shared Styles */
@@ -39,10 +39,10 @@
 
 /* Banner Head */
 .banner-head {
-    margin: 41px 0px 99px 0px;
+    margin: 41px 0px 80px 0px;
     background-image: url('../resources/Rectangle\ 15.png'), url('../resources/Banner\ Image.png');
-    height: 505px;
-    background-size: cover;
+    height: 600px;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -63,7 +63,7 @@
     line-height: 95px;
 }
 
-.banner-body{
+.banner-body {
     margin-bottom: 99px;
 }
 
@@ -88,7 +88,7 @@
 /* Banner Foot */
 .banner-foot {
     background-image: url('../resources/Vector.png'), url('../resources/Vectorrr.png');
-    height: 505px;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -119,10 +119,6 @@
     font-family: Inter;
     font-size: 14.5px;
     font-weight: 700;
-}
-
-.banner-foot-image img {
-    
 }
 
 
@@ -226,56 +222,93 @@
 
 /* Discount */
 
-#discount{
+#discount {
     background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position-y:bottom, top;
+    background-size: 100%, auto;
+    background-position-y: bottom, top;
     background-position-x: center, right;
     margin-bottom: 99px;
 }
 
-.discount-image{
+.discount-image {
     display: flex;
     align-items: start;
 }
 
 /* Awesome Portfolio */
-#awesome-portfolio{
+#awesome-portfolio {
     margin-bottom: 145px;
 }
 
-.awesome-portfolio-row{
-    display:flex;
+.awesome-portfolio-row {
+    display: flex;
     justify-content: space-between;
 }
 
-.awesome-portfolio-row img{
-    width: 349.8px;
+.awesome-portfolio-row img {
+    width: 400px;
     height: 371.25px;
 }
 
 
 /* Subscribe */
-#subscribe{
-    margin-bottom: 145px;
+#subscribe {
+    margin-bottom: 99px;
 }
 
-.subscribe-container{
-    background-color: rgba(255, 0, 0, 0.05);
+.subscribe-container {
+    background-image: url('../resources/Rectangle\ 11.png');
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.subscribe-container img{
+.subscribe-container img {
     display: block;
     margin: 0 auto;
 }
 
+.subscribe-container input {
+    border-radius: 50px 0 0 50px;
+    height: 51px;
+    width: 314px;
+    border: none;
+    padding-left: 20px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 12.5px;
+    font-weight: 400;
+}
+
+.subscribe-container button {
+    border-radius: 0 50px 50px 0;
+    height: 51px;
+    width: 150px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #F00;
+    border: none;
+}
+
+
+.subscribe-container form {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
 
 /* Unsubscribe */
-#unsubscribe{
+#unsubscribe {
     background: #070211;
 }
- 
-.unsubscribe-div{
+
+.unsubscribe-div {
     display: flex;
     justify-content: space-between;
 }
